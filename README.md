@@ -1,6 +1,6 @@
 # Scene-recognition
 
-#Overview
+## **Overview**
 Scene recognition is an evolving field in computer vision that has not achieved the same level of success as image recognition due to the vast variability of features in different environments. This project aims to evaluate problem statements using recent literature surveys and propose solutions for these challenges.
 
 We employ ResNet (ResNet18, ResNet50, ResNet152) and VGG (VGG16, VGG19, VGG19 with batch normalization) variants to tackle the proposed problem statement. The entire scene recognition procedure is discussed in this report, with the main goal of laying a foundation for developing a new algorithm. Before the advent of deep learning, scene recognition models relied on low-dimensional representations of scenes. The use of deep learning, especially Convolutional Neural Networks (CNNs), has garnered significant attention in the computer vision community for scene recognition tasks.
