@@ -20,6 +20,13 @@ To download intel-image-classification kaggle dataset
 2. Then scroll down to the API access section and click generate to download an API key. This will download a file called kaggle.json to your computer. You'll use this file in Colab to access Kaggle datasets and competitions.
 3. Navigate to https://colab.research.google.com/. Upload your kaggle.json file using the following snippet in a code cell: ![3](https://github.com/user-attachments/assets/8cb60cb9-d999-4789-b10b-5869aabaa894)
 
-Install the kaggle API using *!pip install -q kaggle
-Move the kaggle.json file into ~/.kaggle, which is where the API client expects your token to be located: image
+4. Install the kaggle API using *!pip install -q kaggle
+5. Move the kaggle.json file into ~/.kaggle, which is where the API client expects your token to be located: ![5](https://github.com/user-attachments/assets/95e42b2a-ff08-4b3a-b467-a1c5a2e61744)
+
 MIT indoor scene dataset:"http://groups.csail.mit.edu/vision/LabelMe/NewImages/indoorCVPR_09.tar"
+We use a combined dataset consisting of the Intel Image Classification dataset, which contains around 14k images across 6 classes, and the MIT Indoor Scene dataset, resulting in a total of 29,654 images across 73 classes. The dataset is split randomly into training, validation, and test sets as follows:
+
+Training dataset: 23,723 images
+Validation dataset: 2,965 images
+Test dataset: 2,966 images
+
